@@ -22,21 +22,28 @@
 .logo.individual {
   height: 100px;
   width: 100px;
-  padding: 24px;
   color: #fff;
   font-size: 80px;
   line-height: 100px;
 }
 
-/*
-.logo.individual:hover {
-  filter: drop-shadow(0 0 30px #ff69b4);
-}
-*/
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+@media screen and (max-width: 850px) {
+  .logo {
+    height: 60px;
+    padding: 10px;
+  }
+  .logo.individual {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    line-height: 60px;
+  }
 }
